@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/NumberToWordsConverter/bin
+/NumberToWordsConverter/obj
+/NumberToWordsConverter.Services/obj
+/NumberToWordsConverter.Services/bin/Release
+/NumberToWordsConverter.Tests/bin
+/NumberToWordsConverter.Tests/obj
+/packages
