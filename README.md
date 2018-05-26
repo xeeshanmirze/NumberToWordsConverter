@@ -23,22 +23,22 @@ jQuery calls Webapi hosted @ http://localhost:60005/api/CurrencyConverter
 * Update Converter.js script file if the running directory/port is changed.
 
 ### NumberToWordsService (API Service)
-. Validate for Currency min and max values
-. Call CurrencyParser to get dollars and cents
-. Convert Currency to Words
-. . Convert Dollars to Words
-. . . Call Transaltion Service to get text for Number
-. . Convert Cents to Words
-. . . Call Transaltion Service to get text for Number
-. Call CurrencyOutoutFormat service (dollar, cents)
-. Send back converted currency in words
+1. Validate for Currency min and max values
+2. Call CurrencyParser to get dollars and cents
+3. Convert Currency to Words
+3. . Convert Dollars to Words
+3. . . Call Transaltion Service to get text for Number
+3. . Convert Cents to Words
+3. . . Call Transaltion Service to get text for Number
+4. Call CurrencyOutoutFormat service (dollar, cents)
+5. Send back converted currency in words
 
 ### CurrencyParser
-. Currency Parser Service: Parse Currency to Dollars and Cents
+-. Currency Parser Service: Parse Currency to Dollars and Cents
 
 ### CurrencyTranslator
-. Currency Transalation Service: Lookup for numbers to text
+-. Currency Transalation Service: Lookup for numbers to text
 
 ### CurrencyOutputFormatter
-. Foramt Output Dollars & Cents
+-. Foramt Output Dollars & Cents
 
